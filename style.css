@@ -164,3 +164,38 @@
     }
   }
 }
+
+.acheivement_section {
+  background-color: #f5f7fa;
+  margin: 80px 0;
+  padding: 64px 0;
+  .container {
+    .section_heading {
+      color: #4d4d4d;
+      font-family: "Inter";
+      font-size: 36px;
+      font-weight: 600;
+      span {
+        color: var(--primary-color);
+      }
+    }
+    .section_subheading {
+      color: #18191f;
+      font-family: "Inter";
+      font-size: 16px;
+    }
+    .achieve_content {
+      h2 {
+        color: #4d4d4d;
+        font-family: "Inter";
+        font-size: 28px;
+        font-weight: 700;
+      }
+      p {
+        color: #717171;
+        font-family: "Inter";
+        font-size: 16px;
+      }
+    }
+  }
+}
