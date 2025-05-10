@@ -199,3 +199,77 @@
     }
   }
 }
+
+.calendar_section {
+  padding-top: 32px;
+  .container {
+    .section_heading {
+      color: #4d4d4d;
+      font-family: "Inter";
+      font-size: 36px;
+      font-weight: 600;
+    }
+    .section_subheading {
+      color: #717171;
+      font-family: "Inter";
+      font-size: 14px;
+    }
+    .btn-custom {
+      border-radius: 4px;
+      padding-left: 36px;
+      padding-right: 36px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (min-width: 900px) {
+    /* padding-left: 164px;
+    padding-right: 116px; */
+    .section_heading {
+      padding-right: 250px;
+    }
+    .section_subheading {
+      padding-right: 256px;
+    }
+  }
+}
+
+.customer_section {
+  background: #f5f7fa;
+  padding: 36px 0;
+  .container {
+    padding: 0px 80px;
+    .customer_box {
+      .customer_content {
+        h2 {
+          color: #717171;
+          font-family: "Inter";
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+        }
+      }
+      .customer_info {
+        h4 {
+          color: var(--primary-color);
+          font-family: "Inter";
+          font-size: 20px;
+          font-weight: 600;
+        }
+        p {
+          color: #89939e;
+        }
+      }
+      .customer_logo {
+        p {
+          color: var(--primary-color);
+          font-family: "Inter";
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  /* @media (min-width: 900px) {
+  } */
+}
