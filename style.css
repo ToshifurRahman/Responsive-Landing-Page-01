@@ -74,6 +74,23 @@
 
 /* Client Section */
 .client_section {
+  padding-top: 56px;
+  .container {
+    .section_heading {
+      color: #4d4d4d;
+      font-family: "Inter";
+      font-size: 36px;
+      font-weight: 600;
+    }
+    .section_subheading {
+      color: #717171;
+      font-family: "Inter";
+      font-size: 16px;
+    }
+  }
+}
+
+.community_section {
   padding: 56px 0;
   .container {
     .section_heading {
@@ -86,6 +103,26 @@
       color: #717171;
       font-family: "Inter";
       font-size: 16px;
+    }
+    .com_item {
+      /* border: 2px solid red; */
+      padding: 16px 32px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+      .com_content {
+        h3 {
+          color: #4d4d4d;
+          font-family: "Inter";
+          font-size: 28px;
+          font-weight: 700;
+        }
+        p {
+          /* padding: 16px; */
+          color: #717171;
+          font-family: "Inter";
+          font-size: 14px;
+        }
+      }
     }
   }
 }
