@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #4caf4f;
+  --secondary-color: #263238;
+  --info-color: #2195f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.btn-custom {
+  background: var(--primary-color);
+  color: white;
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.4s ease;
+  &:hover {
+    background: #f5f7fa;
+    color: var(--primary-color);
+  }
+}
+
+/* Navbar */
+.navbar {
+  background: #f5f7fa;
+  .login {
+    color: var(--primary-color);
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+/* Hero Section */
+.hero_section {
+  padding: 112px 0;
+  background: #f5f7fa;
+  .container {
+    h1 {
+      color: #4d4d4d;
+      font-family: "Inter";
+      font-size: 64px;
+      font-weight: 600;
+    }
+    span {
+      color: #4caf4f;
+    }
+    p {
+      color: #717171;
+      font-family: "Inter";
+      font-size: 16px;
+    }
+    .btn-custom {
+      font-size: 16px;
+      padding: 14px 32px;
+      border-radius: 4px;
+    }
+  }
+}
+
+/* Client Section */
+.client_section {
+  padding: 56px 0;
+  .container {
+    .section_heading {
+      color: #4d4d4d;
+      font-family: "Inter";
+      font-size: 36px;
+      font-weight: 600;
+    }
+    .section_subheading {
+      color: #717171;
+      font-family: "Inter";
+      font-size: 16px;
+    }
+  }
+}
