@@ -17,6 +17,13 @@
   z-index: 999;
 }
 
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .btn-custom {
   background: var(--primary-color);
   color: white;
@@ -123,6 +130,10 @@
           font-family: "Inter";
           font-size: 14px;
         }
+      }
+      transition: all 0.4s ease;
+      &:hover {
+        background: #f5f7fa;
       }
     }
   }
@@ -275,6 +286,90 @@
           &:hover {
             color: #66bb69;
           }
+        }
+      }
+    }
+  }
+}
+
+/* Footer Frame Section */
+.footer_frame_section {
+  padding: 46px 0;
+  .container {
+    .section_heading {
+      color: #263238;
+      font-family: "Inter";
+      font-size: 64px;
+      font-weight: 600;
+    }
+    .btn-custom {
+      border-radius: 4px;
+      padding-left: 36px;
+      padding-right: 36px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    @media (min-width: 900px) {
+      .section_heading {
+        padding-left: 250px;
+        padding-right: 250px;
+      }
+    }
+  }
+}
+
+/* Footer Section */
+
+footer {
+  background: #263238;
+  padding: 70px 0;
+  .container {
+    .footer_logo {
+      width: 35%;
+    }
+    p {
+      color: #f5f7fa;
+      font-family: "Inter";
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .list_content {
+      h4 {
+        color: #ffffff;
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 600;
+      }
+      ul,
+      li {
+        margin-bottom: 10px;
+        a {
+          color: #f5f7fa;
+          text-decoration: none;
+          font-family: "Inter";
+          font-size: 14px;
+          transition: all 0.4s ease;
+          &:hover {
+            opacity: 60%;
+          }
+        }
+      }
+      .form-design {
+        background-color: rgba(255, 255, 255, 0.2);
+        border: none;
+        border-right: none;
+      }
+      .form-design::placeholder {
+        color: #d9dbe1;
+        opacity: 1;
+        font-family: "Inter";
+        font-size: 14px;
+      }
+      .btn-footer {
+        background-color: rgba(255, 255, 255, 0.2);
+        border: none;
+        &:hover {
+          background: #333333;
         }
       }
     }
