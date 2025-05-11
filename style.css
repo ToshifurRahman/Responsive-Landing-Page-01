@@ -40,6 +40,10 @@ li {
 /* Navbar */
 .navbar {
   background: #f5f7fa;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box;
+  width: 100%;
   .login {
     color: var(--primary-color);
     font-family: "inter";
@@ -283,8 +287,9 @@ li {
           font-size: 20px;
           font-weight: 600;
           text-decoration: none;
+          transition: all 0.4s ease;
           &:hover {
-            color: #66bb69;
+            font-weight: 700;
           }
         }
       }
