@@ -153,11 +153,14 @@ li {
       font-family: "Inter";
       font-size: 36px;
       font-weight: 600;
+      text-align: start;
+      padding-right: 0px;
     }
     .section_subheading {
       color: #717171;
       font-family: "Inter";
       font-size: 14px;
+      padding-right: 0px;
     }
 
     .btn-custom {
