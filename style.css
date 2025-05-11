@@ -90,6 +90,7 @@
   }
 }
 
+/* Community Section */
 .community_section {
   padding: 56px 0;
   .container {
@@ -127,6 +128,7 @@
   }
 }
 
+/* Unlock Section */
 .unlock_section {
   padding: 56px 0;
   .container {
@@ -165,6 +167,7 @@
   }
 }
 
+/* Acheivement Section */
 .acheivement_section {
   background-color: #f5f7fa;
   margin: 80px 0;
@@ -200,6 +203,7 @@
   }
 }
 
+/* Calendar Section */
 .calendar_section {
   padding-top: 32px;
   .container {
@@ -234,6 +238,7 @@
   }
 }
 
+/* Customer Section */
 .customer_section {
   background: #f5f7fa;
   padding: 36px 0;
@@ -261,15 +266,17 @@
         }
       }
       .customer_logo {
-        p {
+        a {
           color: var(--primary-color);
           font-family: "Inter";
           font-size: 20px;
           font-weight: 600;
+          text-decoration: none;
+          &:hover {
+            color: #66bb69;
+          }
         }
       }
     }
   }
-  /* @media (min-width: 900px) {
-  } */
 }
